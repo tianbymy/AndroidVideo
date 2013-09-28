@@ -10,9 +10,12 @@
 
   <body>
     <script>
-    url = "http://v.youku.com/player/getRealM3U8/vid/XMjQwMzU0Njk2/type//video.m3u8"
-    window.plugins.videoPlayer.play(url);
+      url = "http://v.youku.com/player/getRealM3U8/vid/XMjQwMzU0Njk2/type//video.m3u8"
+      function t_play(){
+      window.plugins.videoPlayer.play(url);
+      }
     </script>
+    a href="#" onclink="t_play()" >播放</a>
   </body>
 
 </html>
